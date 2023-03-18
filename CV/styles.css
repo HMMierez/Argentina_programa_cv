@@ -1,0 +1,190 @@
+
+
+body{
+       background-color: rgb(197, 189, 189);
+       justify-content: center; /* centra horizontalmente */
+       align-items: center;
+       text-align: center;
+
+  }
+
+
+header {
+    width: 100%;
+    background: orange;
+    clear: both;
+    display: table;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+
+}  
+nav{
+      float: right;
+    
+}
+nav ul li {
+    list-style: none;
+    margin-left: 25px;
+    padding: 10px 0;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'raleway', sans-serif;
+    font-size: 25px;
+}
+nav ul li a:hover{
+    color:grey;
+}
+ .menu{
+    width: 900px;
+    margin: 0 auto;
+ }
+
+  
+main{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.portada {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+   
+}
+    
+img{
+    width: 500px;
+    border-radius: 50%;
+    margin-right: 80px;
+}
+.presentacion {
+    font-family: 'raleway', sans-serif;
+    font-size: 25px;
+    width: 500px;
+    text-align: justify;
+}
+.presentacion h1{
+    text-align: left;
+}
+
+#experiencia {
+    width: 80%;
+    font-family: 'raleway', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    align-items: center;
+}   
+#educacion { 
+    width: 80%;
+    font-family: 'raleway',sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    
+}
+
+@media screen and (max-width:800px) {
+   
+    body { 
+    width: 100%;
+   }
+
+    header {
+    width: 98%;
+    background: orange;
+    clear: both;
+    display: table;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    } 
+
+    .menu{
+    width: 90%;
+   }
+    .portada{ 
+    display: block;
+
+  }
+
+   
+     img {
+        width: 250px;
+        border-radius: 50%;
+    
+    }
+    
+    .presentacion {
+        font-family: 'raleway', sans-serif;
+        font-size: 20px;
+        width: 250px;
+        text-align: justify;
+    }      
+    nav{
+                float: center;
+      
+  }
+    nav ul li {
+      list-style: none;
+      margin-left: 25px;
+      padding: 10px 0;
+      float: left;
+  }
+    nav ul li a{
+      text-decoration: none;
+      color: black;
+      font-family: 'raleway', sans-serif;
+      font-size: 15px;
+  }
+    nav ul li a:hover{
+      color:grey;
+  }
+  footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+      
+}
+.boton-container {
+    margin-top: 10%;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 25%;
+    
+}
+.boton-container a img{
+    width: 10px;
+}
+      
+#experiencia{
+    font-size: 15px;
+}
+  
+} 
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+      
+}
+.boton-container {
+    margin-top: 10%;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 25%;
+    
+}
+.boton-container a img{
+    width: 100px;
+}
